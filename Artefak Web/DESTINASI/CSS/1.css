@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,100;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5px;
+}
+
+h1{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 0.5px;
+}
+body{
+    min-width: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing:border-box;
+    background-color: white;
+}
+
+.container{
+    width: 120vh;
+    height: auto;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 240, 215);
+    box-shadow: -0.2cm 0.0cm 0.4cm #7cc696,
+    -0.3cm -0.2cm 1cm #b2ff88;
+    padding: 10px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-content,
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    border-radius: 25px 25px 0 25px;
+    padding: 25px 0;
+}
+
+.card-img{
+    height: 350px;
+    width: 200;
+}
+.card-image .card-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p{
+    font-size: 15px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

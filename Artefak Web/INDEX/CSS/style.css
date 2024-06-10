@@ -1,0 +1,75 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar.scrolling-active{
+    background-color: green;
+}
+.hero{
+    background-image: url('../IMAGE/Home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero h1{
+    --animate-delay: 0.7s;
+}
+
+.hero p{
+    --animate-delay: 2s;
+}
+
+.destinasi{
+    padding: 100px 0px 100px 0px;
+}
+  
+.destinasi img{
+    height: 250px;
+}
+
+.artikel img{
+    width: 300px;
+    height: 300px;
+}
+
+.artikel h5{
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.artikel i{
+    color:green;
+    font-size: 30px;
+}
+
+.pin {
+    padding-top: 100px;
+}
+
+.pin .accordion{
+    --bs-accordion-bg: #e9edc9;
+}
+
+.pin .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+
+.footer{
+    min-height: 60vh;
+    background-color: #15181f;
+    margin-top: 150px;
+}
+
+.footer .copyright{
+    padding-top: 100px;
+}
+@media  screen and (max-widht: 1200px){
+    .services img {
+        width: 220px;
+    }
+}
